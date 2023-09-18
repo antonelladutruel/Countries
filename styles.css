@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #aaa1c8;
+}
+
+header {
+    background-color: #192a51;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+button {
+    padding: 7px;
+    font-size: 16px;
+    background-color: #8b84a198;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#aaa1c8;
+}
+
+#countryCont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+font-weight: bolder;  
+}
+
+.boxDescription {
+background-color: #8a82a1;
+margin: 20px;
+margin-top: 1px;  
+transition: transform .2s; 
+}
+
+.boxDescription:hover {
+    transform: scale(1.2); 
+    background-color: #5a5569;
+}
